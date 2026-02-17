@@ -31,7 +31,7 @@ export async function fetchHangang(): Promise<HangangApiResponse> {
 
 export function formatLastUpdate(lastUpdate: string, location: string): string {
   const [datePart, timePart] = lastUpdate.split(' ');
-  const [year, month, day] = datePart.split('-');
+  const [month, day] = datePart.split('-');
   const hour = timePart?.slice(0, 2) ?? '00';
   const monthNum = parseInt(month, 10);
   const dayNum = parseInt(day, 10);
