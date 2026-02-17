@@ -2,6 +2,8 @@
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+**앱인토스 테스트/출시 환경에서 "오늘 접속"이 안 나오면** → [docs/배포-CORS-설정.md](docs/배포-CORS-설정.md) 참고 (통계 API 서버 CORS 허용 필요).
+
 Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
